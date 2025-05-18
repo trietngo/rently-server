@@ -1,19 +1,31 @@
 {
   "name": "rently-server",
   "version": "1.0.0",
-  "description": "A Server App for Rently",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src"
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trietngo/rently-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trietngo/rently-server/issues"
+  },
+  "homepage": "https://github.com/trietngo/rently-server#readme",
+  "description": "",
   "dependencies": {
-    "express": "^4.21.1",
-    "netlify-lambda": "^2.0.16",
-    "serverless-http": "^3.2.0"
+    "@mapbox/node-pre-gyp": "^2.0.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-gyp": "^11.2.0",
+    "node-pre-gyp": "^0.17.0",
+    "nodemon": "^3.1.10"
   }
 }
