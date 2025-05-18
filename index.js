@@ -11,7 +11,7 @@ const app = express();
 app.use(
     cors({
         credentials: true,
-        origin: "https://rentlybytriet.netlify.app/",
+        origin: "https://rentlybytriet.netlify.app",
     })
 ); // configure cors right after instantiating express
 
