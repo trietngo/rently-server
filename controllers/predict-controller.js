@@ -9,7 +9,7 @@ const predictRent = async (req, res) => {
     // const model = await tf.loadLayersModel('file://data/model/model.json')
 
     console.log(req.body)
-    res.send("Data Retrieved");
+    res.send("Render Server Responded.");
 }
 
 export default (app) => {
